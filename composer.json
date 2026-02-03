@@ -1,10 +1,16 @@
 {
     "$schema": "https://getcomposer.org/schema.json",
-    "name": "laravel/laravel",
+    "name": "site/fusion-point",
     "type": "project",
-    "description": "The skeleton application for the Laravel framework.",
+    "description": "Laravel Starter Project.",
     "keywords": ["laravel", "framework"],
     "license": "MIT",
+    "authors": [
+        {
+            "name": "Mel Pixel",
+            "email": "melissapixell@gmail.com"
+        }
+    ],
     "require": {
         "php": "^8.2",
         "laravel/framework": "^12.0",
@@ -73,6 +79,7 @@
         }
     },
     "config": {
+        "process-timeout": 0,
         "optimize-autoloader": true,
         "preferred-install": "dist",
         "sort-packages": true,
